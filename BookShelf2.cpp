@@ -1,31 +1,12 @@
 ﻿// BookShelf2.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-#indef pbook_h
-#define pbook_h
+
 #include <iostream>
-#include <srting>
-#include "Book.h"
-using namespace std;
-class Book {
 
-public:
-    string Name;
-    int Pages;
-    Book() {
-        Name = '-';
-        Pages = 0;
-    }
-    string getName() {
-        return Name;
-    }
-    int getPages() {
-        return Pages;
-    }
-    void Print() {
-        cout << "Book: " << Name << ",p." << Pages << "\n";
-    }
-};
-
+int main()
+{
+    std::cout << "Hello World!\n";
+}
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
